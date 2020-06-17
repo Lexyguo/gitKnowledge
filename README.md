@@ -1,6 +1,20 @@
 # gitKnowledge
 git使用中一些常用、好用的命令
 
+## git中的文件状态
+A - Added    新增的文件已经被加入仓库
+
+U - Untracked    新文件已经被改变但是还未被加入仓库
+
+D - Deleted   被删除的文件
+
+M - Modified     一个已存在且被改变的文件
+
+C - Conflict       有冲突的文件
+
+R - Renamed       被重命名的文件
+
+## 常用命令
 检出仓库：$ git clone ...(需要克隆的地址)
 
 查看远程仓库：$ git remote -v
